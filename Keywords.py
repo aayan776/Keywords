@@ -32,3 +32,18 @@ for number in numbers:
         continue
     sum_of_positives += number
 print(sum_of_positives)
+x = int(input("Enter number: "))
+if x % 20 == 0:
+    print(20)
+elif x % 15 == 0:
+    pass
+elif x % 3 == 0:
+    print(3)
+else:
+    print(x)
+fruits = ["apple", "banana", "cherry", "date", "elderberry", "mango"]
+for fruit in fruits:
+    if fruit == "mango":
+        print("Mango found")
+        break
+print("Search over")
