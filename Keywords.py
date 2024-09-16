@@ -47,3 +47,10 @@ for fruit in fruits:
         print("Mango found")
         break
 print("Search over")
+var = 100000000000
+while var > 0:
+    var -= 1
+    if var == 5:
+        continue
+    print("Current value: ", var)
+print("End")
