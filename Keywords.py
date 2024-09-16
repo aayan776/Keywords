@@ -18,3 +18,17 @@ def display_contact():
 print(add_contact("Aayan", 12345678910))
 print(search_contacts("Aayan"))
 print(display_contact())
+letter = input("Enter a letter: ")
+for i in letter:
+    if i == "a" or i == "A":
+        print("'A' found")
+        break
+    else:
+        print("'A' not found")
+numbers = [-5, -111001, 5, 10]
+sum_of_positives = 0
+for number in numbers:
+    if number < 0:
+        continue
+    sum_of_positives += number
+print(sum_of_positives)
